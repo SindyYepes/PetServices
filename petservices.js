@@ -368,6 +368,37 @@ function renderHome() {
         </div>
       </div>
     </section>
+    <section class="section angular-demo">
+  <div class="container">
+    <div style="
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      text-align: center;
+      margin-top: 30px;
+    ">
+      <h2 style="font-size: 32px; margin-bottom: 10px;">
+        Componente Angular Implementado
+      </h2>
+      <p style="color: #6b7280; margin-bottom: 20px;">
+        Esta sección simula un componente desarrollado con Angular utilizando binding dinámico.
+      </p>
+
+      <div id="angular-box" style="
+        font-size: 20px;
+        font-weight: bold;
+        color: #2563eb;
+      ">
+        Bienvenido a PetServices
+      </div>
+
+      <button id="angular-btn" class="btn btn-primary" style="margin-top: 20px;">
+        Cambiar mensaje
+      </button>
+    </div>
+  </div>
+</section>
   `;
 }
 
@@ -788,6 +819,15 @@ function onDocumentClick(e) {
     if (id) toggleFavorite(id);
     return;
   }
+  // --- Simulación de componente Angular (binding básico) ---
+const angularBtn = document.getElementById("angular-btn");
+const angularBox = document.getElementById("angular-box");
+
+if (angularBtn && angularBox) {
+  angularBtn.addEventListener("click", () => {
+    angularBox.textContent = "Angular Binding Activo";
+  });
+}
 }
 
 function init() {
