@@ -27,7 +27,7 @@ La plataforma está diseñada con un enfoque en la experiencia del usuario (UX/U
 petservices/
 │
 ├── index.html       # Estructura principal
-├── styles.css       # Estilos
+├── petservices.css  # Estilos
 └── petservices.js   # Lógica y funcionalidades
 ```
 
