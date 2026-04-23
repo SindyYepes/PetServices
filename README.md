@@ -40,6 +40,7 @@ petservices/
 * JavaScript (Vanilla)
 * localStorage
 * Lucide Icons (CDN)
+* Angular
 
 ---
 
