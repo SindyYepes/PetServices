@@ -110,7 +110,7 @@ El proyecto utiliza **localStorage** para:
 
 ## 📚 Contexto Académico
 
-Este proyecto fue desarrollado como parte de la asignatura **Gerencia de Proyectos Informáticos**, cumpliendo con los requisitos de maquetación, diseño de interfaces y descripción funcional del sistema.
+Este proyecto fue desarrollado como parte de la asignatura **Front End**, cumpliendo con los requisitos de maquetación, diseño de interfaces y descripción funcional del sistema.
 
 ---
 
