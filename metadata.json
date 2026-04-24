@@ -1,0 +1,5 @@
+{
+  "name": "PetServices",
+  "description": "Plataforma de servicios para mascotas con catálogo interactivo y gestión de favoritos.",
+  "requestFramePermissions": ["camera"]
+}
