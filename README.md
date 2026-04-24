@@ -26,9 +26,9 @@ La plataforma está diseñada con un enfoque en la experiencia del usuario (UX/U
 ```bash
 petservices/
 │
-├── petservices.html   # Estructura principal
-├── petservices.css    # Estilos
-└── petservices.js     # Lógica y funcionalidades
+├── index.html       # Estructura principal
+├── petservices.css  # Estilos
+└── petservices.js   # Lógica y funcionalidades
 ```
 
 ---
@@ -40,6 +40,7 @@ petservices/
 * JavaScript (Vanilla)
 * localStorage
 * Lucide Icons (CDN)
+* Angular
 
 ---
 
